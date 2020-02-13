@@ -2,6 +2,7 @@ package main;
 
 public class EclemmaDemo {
 
+//check if the type of a triangle with three edges a, b and c
 	public String check(int a, int b, int c) {
 		boolean c1, c2, c3;
 		c1 = a + b > c;
