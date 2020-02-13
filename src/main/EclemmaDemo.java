@@ -8,6 +8,7 @@ public class EclemmaDemo {
 		c1 = a + b > c;
 		c2 = b + c > a;
 		c3 = a + c > b;
+		// a triangle needs c1, c2 and c3 to be true
 		if (c1 && c2 && c3) {
 			if (a == b && b == c) {
 				return "Regular";
